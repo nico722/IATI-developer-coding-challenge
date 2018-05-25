@@ -14,6 +14,6 @@ pip install -r requirements.txt
 
 ## Running the tests
 
-Tests are run using pytest:
+Tests are run using [pytest](https://docs.pytest.org/en/latest/):
 
 `pytest`
