@@ -1,4 +1,5 @@
 from main import get_total_budget_value
 
 def test_get_total_budget_value():
-    assert get_total_budget_value(2018) == float(2000)
+    result = get_total_budget_value("sample_data_fully_valid_10_rows.csv", 2018)
+    assert result == float(500)
