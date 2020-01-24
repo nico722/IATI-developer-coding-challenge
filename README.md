@@ -19,3 +19,10 @@ Tests are run using [pytest](https://docs.pytest.org/en/latest/):
 ```
 $ py.test
 ```
+
+## Alternative instructions
+You can use a `make` command to run the program, but you need to have install `virtualenv` and `python3`
+
+- make install
+- make run
+- make test
